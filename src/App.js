@@ -1,5 +1,6 @@
 import React from 'react';
-import { Typography } from '@mui/material'; // Typography is any text element
+import { Typography, AppBar, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container } from '@mui/material'; // Typography is any text element
+import PhotoCamera from '@mui/material'
 
 const App = () => {
     return (
