@@ -26,7 +26,7 @@ const App = () => {
                         <Typography variant="h5" align="center" color="textPrimary" paragraph>
                             Hello everyone! This is a photo album.
                         </Typography>
-                        <div>
+                        <div className={classes.button}>
                             <Grid container spacing={2} justify="center">
                                 <Grid item>
                                     <Button variant="contained" color="primary">
