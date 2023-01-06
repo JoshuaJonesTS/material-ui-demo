@@ -27,7 +27,7 @@ const App = () => {
                             Hello everyone! This is a photo album.
                         </Typography>
                         <div className={classes.button}>
-                            <Grid container spacing={2} justify="center">
+                            <Grid container spacing={2} justifyContent="center">
                                 <Grid item>
                                     <Button variant="contained" color="primary">
                                         See my photos
