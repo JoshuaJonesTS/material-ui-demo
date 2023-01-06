@@ -1,12 +1,20 @@
 import React from 'react';
 import { Typography, AppBar, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container } from '@mui/material'; // Typography is any text element
-import PhotoCamera from '@mui/material'
+// import {PhotoCameraIcon} from '@mui/icons-material/PhotoCamera';
 
 const App = () => {
     return (
-        <div>
-            <Typography variant="h1">Hello, World!</Typography>
-        </div>
+        <>
+            <CssBaseline/>
+            <AppBar position="relative">
+                <Toolbar>
+                    {/* <PhotoCameraIcon/> */}
+                    <Typography variant="h6">
+                        Photo Album
+                    </Typography>
+                </Toolbar>
+            </AppBar>
+        </>
     );
 }
 
