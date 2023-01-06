@@ -3,10 +3,10 @@ import { Typography, AppBar, Button, Card, CardActions, CardContent, CardMedia, 
 // import {PhotoCameraIcon} from '@mui/icons-material/PhotoCamera';
 import { makeStyles } from '@mui/styles';
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(({
     container: {
-        // backgroundColor: theme.palette.background.paper
-        // padding: theme.spacing(8, 0, 6)
+        backgroundColor: 'rgb(255, 253, 208)',
+        paddingTop: '30px'
     }
 }));
 
