@@ -2,6 +2,9 @@ import React from 'react';
 import { Typography, AppBar, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container } from '@mui/material'; // Typography is any text element
 // import {PhotoCameraIcon} from '@mui/icons-material/PhotoCamera';
 
+import Button from '@mui/material/Button';
+import ButtonGroup from '@mui/material/ButtonGroup';
+
 const App = () => {
     return (
         <>
@@ -25,6 +28,11 @@ const App = () => {
                         </Typography>
                     </Container>
                 </div>
+                <ButtonGroup variant="contained" aria-label="outlined primary button group">
+                    <Button>One</Button>
+                    <Button>Two</Button>
+                    <Button>Three</Button>
+                </ButtonGroup>
             </main>
         </>
     );
