@@ -1,14 +1,8 @@
 import React from 'react';
 import { Typography, AppBar, Button, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container } from '@mui/material'; // Typography is any text element
 // import {PhotoCameraIcon} from '@mui/icons-material/PhotoCamera';
-import { makeStyles } from '@mui/styles';
+import useStyles from './styles';
 
-const useStyles = makeStyles(({
-    container: {
-        backgroundColor: 'rgb(255, 253, 208)',
-        paddingTop: '30px'
-    }
-}));
 
 const App = () => {
     const classes = useStyles();
