@@ -2,6 +2,8 @@ import React from 'react';
 import { Typography, AppBar, Button, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container } from '@mui/material'; // Typography is any text element
 import useStyles from './styles';
 
+const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
 
 const App = () => {
     const classes = useStyles();
@@ -43,7 +45,8 @@ const App = () => {
                 </div>
                 <Container className={classes.cardGrid} maxWidth="md">
                     <Grid container spacing={4}>
-                        <Grid item>
+                        {cards.map((card) => (
+                            <Grid item key={card}>
                             <Card className={classes.card}>
                                 <CardMedia
                                     className={classes.cardMedia}
@@ -64,6 +67,8 @@ const App = () => {
                                 </CardActions>
                             </Card>
                         </Grid>
+                        ))}
+                        
                     </Grid>
                 </Container>
             </main>
