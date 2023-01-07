@@ -21,6 +21,10 @@ const useStyles = makeStyles(({
     },
     cardContent: {
         flexGrow: 1
+    },
+    footer: {
+        backgroundColor: 'rgb(255, 253, 208)',
+        padding: '50px 0'
     }
 }));
 
